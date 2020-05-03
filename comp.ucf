@@ -1,0 +1,53 @@
+NET "LED2" LOC = K15;
+NET "LED1" LOC = J15;
+NET "LED0" LOC = J14;
+
+NET "pos(0)" LOC = K14;
+NET "pos(1)" LOC = E17;
+NET "pos(2)" LOC = P15;
+NET "pos(3)" LOC = F4;
+NET "pos(4)" LOC = R4;
+
+NET "AN[0]" LOC = F17;
+NET "AN[1]" LOC = H17;
+NET "AN[2]" LOC = C18;
+NET "AN[3]" LOC = F15;
+
+NET "sseg[0]" LOC = H14;
+NET "sseg[1]" LOC = J17;
+NET "sseg[2]" LOC = G14;
+NET "sseg[3]" LOC = D16;
+NET "sseg[4]" LOC = D17;
+NET "sseg[5]" LOC = F18;
+NET "sseg[6]" LOC = L18;
+NET "sseg[7]" LOC = C17;
+
+NET "CLK" LOC = B8;
+
+
+//NET "switch7" LOC = R17;
+//NET "switch6" LOC = N17;
+//NET "switch5" LOC = L13;
+NET "switch4" LOC = L14;
+NET "switch3" LOC = K17;
+NET "switch2" LOC = K18;
+NET "switch1" LOC = H18;
+NET "switch0" LOC = G18;
+
+//NET "B0" LOC = B18;
+//NET "B1" LOC = E18;
+//NET "B2" LOC = H13;
+//NET "B3" LOC = D18;
+NET "switch0" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "switch1" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+
+NET "rowl[3]" LOC = K13;
+NET "rowl[2]" LOC = L16;
+NET "rowl[1]" LOC = M14;
+NET "rowl[0]" LOC = M16;
+NET "colO[3]" LOC = M15;
+NET "colO[2]" LOC = L17;
+NET "colO[1]" LOC = K12;
+NET "colO[0]" LOC = L15;
